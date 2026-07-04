@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+        "nombre": "Aceite de CBD 1000mg - 10ml",
+        "precio": "30.000",
+        "img": "./img/cbd-1000mg.png"
+    },
+
+    {
+        "id": "2",
+        "nombre": "Loción Anti-Dolor - 60ml",
+        "precio": "17.000",
+        "img": "./img/locion-60ml.png"
+    },
+
+    {
+        "id": "3",
+        "nombre": "Aceite de Masajes - 125ml",
+        "precio": "17.000",
+        "img": "./img/aceite-masajes-125ml.png"
+    },
+
+    {
+        "id": "4",
+        "nombre": "Unguento Medicinal - 50g",
+        "precio": "17.000",
+        "img": "./img/ung-medicinal.png"
+    },
+    {
+        "id": "5",
+        "nombre": "Melena de Leon - 40g",
+        "precio": "33.000",
+        "img": "./img/melena-40g.png"
+    }
+]

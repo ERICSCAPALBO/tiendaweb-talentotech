@@ -1,16 +1,12 @@
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100;1,400;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <title>Medicina Ancestral</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>carrito</title>
+</head>
+<body>
     <header>
       <div class="div-logo">
         <a class="logo" href="../index.html"
@@ -33,23 +29,18 @@
       </nav>
     </header>
     <main>
-      <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+        <h1>Carrito de compras</h1>
+        <section id="contenedor-carrito" class="contenedor-tarjetas">
+            <!-- Productos del carrito -->
+        </section>
 
-      <form
-        class="form-contacto"
-        action="https://formspree.io/f/mgopzykl"
-        method="POST"
-      >
-        <div class="grupo-input">
-          <label for="email"> Tu email: </label>
-          <input id="email" type="email" name="email" />
+        <div id="acciones-carrito" class="acciones-carrito">
+            <!-- Botones de eliminar y finalizar compra se agregan desde JS -->
         </div>
-        <div class="grupo-input">
-          <label for="mensaje"> Dejanos tu consulta </label>
-          <textarea id="mensaje" name="message"></textarea>
-        </div>
-        <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
-      </form>
+
+        <section id="resumen-carrito">
+            <!-- Aca irá el resumen del carrito -->
+        </section>
     </main>
     <footer>
       <p>Sitio realizado por Eric Capalbo para Talento Tech</p>
@@ -72,6 +63,6 @@
       </nav>
     </footer>
 
-    <script type="module" src="../js/contacto.js"></script>
-  </body>
+    <script type="module" src="../js/carrito.js"></script>
+</body>
 </html>
